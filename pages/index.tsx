@@ -38,16 +38,12 @@ export default function Home() {
   return (
     <div className="space-y-16">
       <div className="w-full max-w-2xl space-y-6">
-        <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-full sm:mx-0 sm:h-20 sm:w-20">
-          <Image
-            src="/images/profile.jpg"
-            fill
-            className="object-cover"
-            alt=""
-          />
+        <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-full sm:mx-0 sm:h-24 sm:w-24">
+          <Image src="/images/alex.jpg" fill className="object-cover" alt="" />
         </div>
         <H1 className="text-center text-zinc-800 sm:text-left">
-          Entreprenuer, investor, engineer, and scientist.
+          {/* Entreprenuer, investor, engineer, and scientist. */}
+          Scientist, engineer, and student.
         </H1>
         <p className="mt-6 text-base font-light leading-loose text-zinc-600">
           My name is Alex Shaw. I'm a current master's student at Brigham Young
@@ -55,7 +51,8 @@ export default function Home() {
           am passionate about building products that solve real problems for
           real people. I work on anything I find interesting, and this has led
           me to mathematics, machine learning, software development, investing,
-          and research. If you are trying to build great products, let's chat.
+          and research. If you are trying to build great products or conduct
+          cutting-edge research, let's chat.
         </p>
         <div className="flex h-5 space-x-6">
           <a
