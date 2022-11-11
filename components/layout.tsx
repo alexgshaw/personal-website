@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: ReactElement }) {
       </Head>
       <main>
         <div className="flex min-h-screen w-full flex-col items-center bg-zinc-50">
-          <div className="w-full max-w-6xl flex-1 space-y-10 bg-white px-20 pb-20 pt-6 ring-1 ring-zinc-100">
+          <div className="w-full max-w-6xl flex-1 space-y-10 bg-white px-4 pb-20 pt-6 ring-1 ring-zinc-100 sm:px-20">
             <Navbar />
             {children}
           </div>
