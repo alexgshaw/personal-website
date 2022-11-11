@@ -1,4 +1,5 @@
 import { H1 } from "../components/headers";
+import HoverCard from "../components/hover-card";
 import Tag from "../components/tag";
 
 interface ExperienceProps {
@@ -63,10 +64,11 @@ function Experience({
   description,
 }: ExperienceProps) {
   return (
-    <div className="flex">
-      <p className="w-48 text-sm text-zinc-400">{date}</p>
-      <a className="group relative flex flex-1 flex-col" href={link}>
-        <div className="absolute -inset-6 z-0 scale-95 rounded-2xl bg-zinc-50 opacity-0 transition duration-200 group-hover:scale-100 group-hover:opacity-100" />
+    <div className="flex flex-col sm:flex-row">
+      <p className="mb-2 flex-shrink-0 text-xs text-zinc-400 sm:w-48 sm:text-sm">
+        {date}
+      </p>
+      <HoverCard className="group relative flex flex-col" href={link} as="a">
         <p className="z-10 mb-2 text-sm font-medium text-zinc-500">{title}</p>
         <p className="z-10 mb-3 font-medium">{company}</p>
         <div className="mb-4 flex flex-wrap justify-start">
@@ -79,7 +81,7 @@ function Experience({
         <p className="z-10 text-sm font-light leading-loose text-zinc-600">
           {description}
         </p>
-      </a>
+      </HoverCard>
     </div>
   );
 }
@@ -99,7 +101,7 @@ export default function Work() {
       </div>
       <div className="flex max-w-5xl flex-col space-y-24 border-l-2 border-zinc-100 pl-6">
         {EXPERIENCES.map((experience) => (
-          <Experience key={experience.title} {...experience} />
+          <Experience key={experience.company} {...experience} />
         ))}
       </div>
     </div>

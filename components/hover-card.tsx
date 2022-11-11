@@ -7,7 +7,7 @@ interface HoverCardProps {
   [x: string]: any;
 }
 export default function HoverCard({
-  as: Component = "a",
+  as: Component,
   children,
   className,
   ...props

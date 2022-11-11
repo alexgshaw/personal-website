@@ -21,7 +21,7 @@ export default function ImageCircle({
         )}
       >
         <div className="relative h-10 w-10">
-          <Image src={src} fill alt={alt} objectFit="contain" />
+          <Image src={src} fill alt={alt} className="object-contain" />
         </div>
       </div>
     </>

@@ -39,10 +39,15 @@ export default function Home() {
     <div className="space-y-16">
       <div className="w-full max-w-2xl space-y-6">
         <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-full sm:mx-0 sm:h-20 sm:w-20">
-          <Image src="/images/profile.jpg" fill alt="" />
+          <Image
+            src="/images/profile.jpg"
+            fill
+            className="object-cover"
+            alt=""
+          />
         </div>
         <H1 className="text-center text-zinc-800 sm:text-left">
-          Founder, investor, engineer, and scientist.
+          Entreprenuer, investor, engineer, and scientist.
         </H1>
         <p className="mt-6 text-base font-light leading-loose text-zinc-600">
           My name is Alex Shaw. I'm a current master's student at Brigham Young
