@@ -98,7 +98,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col space-y-16">
         <Education
-          logo="/byu.png"
+          logo="/logos/byu.png"
           title="Brigham Young University"
           subtitle="M.S. Computer Science; B.S. Mathematics; B.A. German Studies"
         />
