@@ -20,7 +20,7 @@ const NAVBAR_ITEMS: NavbarItem[] = [
 export default function Navbar(): ReactElement {
   const router = useRouter();
   return (
-    <div className="sticky top-6 z-20 flex justify-end sm:justify-center">
+    <div className="fixed inset-x-4 top-6 z-20 flex justify-end sm:sticky sm:justify-center">
       <div className="hidden rounded-full bg-white px-4 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 sm:flex">
         {NAVBAR_ITEMS.map((item) => (
           <Link href={item.href} key={item.name}>
