@@ -35,7 +35,7 @@ export default function Navbar(): ReactElement {
           </Link>
         ))}
       </div>
-      <Menu>
+      <Menu as="div" className="sm:hidden">
         <Menu.Button className="rounded-full bg-white p-4 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
