@@ -35,7 +35,7 @@ const EXPERIENCES: ExperienceProps[] = [
     company: "Elevation Capital",
     tags: ["Crunchbase", "PitchBook", "Python", "Excel"],
     description:
-      "Explored the world of tech startups and venture capital. Performed due diligence on potential investments. Formed in depth investment thesis on the crypto and natural language processing verticals.",
+      "Explored the world of tech startups and venture capital. Performed due diligence on potential investments. Formed in depth investment theses on the crypto and natural language processing verticals.",
   },
   {
     date: "June 1, 2021",
@@ -51,7 +51,7 @@ const EXPERIENCES: ExperienceProps[] = [
     company: "Microsoft",
     tags: ["C#", "Cloud", "Web Development"],
     description:
-      "I worked on the Azure Service Fabric team and built APIs to enable cluster upgrades while preventing cluster corruption.",
+      "I worked on the Azure Service Fabric team and built APIs to enable cluster upgrades while still preventing cluster corruption.",
   },
 ];
 

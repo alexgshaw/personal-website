@@ -94,6 +94,45 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col space-y-16">
+        <div className="space-y-6 rounded-2xl p-6 ring-1 ring-zinc-100">
+          <p className="font-medium">Get in touch.</p>
+          <div className="grid grid-cols-2 gap-6">
+            <button className="flex appearance-none items-center justify-center space-x-2 rounded-md bg-teal-500 px-4 py-2 text-sm text-white">
+              <p>Email</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+            </button>
+            <button className="flex appearance-none items-center justify-center space-x-2 rounded-md bg-zinc-100 px-4 py-2 text-sm">
+              <p>Download Resume</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
         <Education
           logo="/logos/byu.png"
           title="Brigham Young University"
