@@ -13,7 +13,7 @@ const NAVBAR_ITEMS: NavbarItem[] = [
   { name: "Home", href: "/" },
   { name: "Work", href: "/work" },
   { name: "Research", href: "/research" },
-  // { name: "Projects", href: "/projects" },
+  { name: "Projects", href: "/projects" },
   // { name: "Thoughts", href: "/thoughts" },
 ];
 

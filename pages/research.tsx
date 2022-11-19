@@ -107,14 +107,12 @@ export default function Research() {
     <div className="mx-auto w-full max-w-xl space-y-16">
       <section className="space-y-6">
         <H1>Peer-reviewed publications.</H1>
-        <div className="space-y-4">
-          <p className="text-base font-light leading-loose text-zinc-600">
-            I'm a master's student at Brigham Young University where I research
-            NLP applications and interpretability. As an undergraduate student,
-            I worked on research projects at the intersection of physics,
-            machine learning, and data analysis.
-          </p>
-        </div>
+        <p className="text-base font-light leading-loose text-zinc-600">
+          I'm a master's student at Brigham Young University where I research
+          NLP applications and interpretability. As an undergraduate student, I
+          worked on research projects at the intersection of physics, machine
+          learning, and data analysis.
+        </p>
       </section>
       <div className="space-y-16">
         {PAPERS.map((paper) => (
