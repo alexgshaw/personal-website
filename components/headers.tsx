@@ -1,16 +1,16 @@
-import { ReactElement } from "react";
+import { ReactElement, ReactNode } from "react";
 import { joinClassNames } from "../lib/utils";
 
 export function H1({
   children,
   className,
 }: {
-  children: string;
+  children: ReactNode;
   className?: string;
 }) {
   return (
     <h1
-      className={joinClassNames(className, "font-bold text-5xl leading-snug")}
+      className={joinClassNames(className, "text-5xl font-bold leading-snug")}
     >
       {children}
     </h1>
@@ -25,7 +25,7 @@ export function H2({
   className?: string;
 }) {
   return (
-    <h2 className={joinClassNames(className, "font-bold text-4xl")}>
+    <h2 className={joinClassNames(className, "text-4xl font-bold")}>
       {children}
     </h2>
   );
@@ -39,7 +39,7 @@ export function H3({
   className?: string;
 }) {
   return (
-    <h3 className={joinClassNames(className, "font-bold text-3xl")}>
+    <h3 className={joinClassNames(className, "text-3xl font-bold")}>
       {children}
     </h3>
   );
@@ -53,7 +53,7 @@ export function H4({
   className?: string;
 }) {
   return (
-    <h4 className={joinClassNames(className, "font-bold text-2xl")}>
+    <h4 className={joinClassNames(className, "text-xl font-medium")}>
       {children}
     </h4>
   );

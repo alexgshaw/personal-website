@@ -12,9 +12,15 @@ export default function Layout({ children }: { children: ReactElement }) {
       </Head>
       <main>
         <div className="flex min-h-screen w-full flex-col items-center bg-zinc-50">
-          <div className="w-full max-w-6xl flex-1 space-y-10 bg-white px-4 pb-20 pt-6 ring-1 ring-zinc-100 sm:px-20">
+          <div className="w-full max-w-6xl flex-1 space-y-10 bg-white px-4 pt-6 ring-1 ring-zinc-100 sm:px-20">
             <Navbar />
             {children}
+            <footer>
+              <div className="-mx-4 h-px bg-zinc-900/5 sm:-mx-20" />
+              <div className="flex flex-col items-center py-20 text-sm text-zinc-400 sm:flex-row sm:justify-between">
+                <p>© 2022 Alex Shaw. All rights reserved.</p>
+              </div>
+            </footer>
           </div>
         </div>
       </main>
