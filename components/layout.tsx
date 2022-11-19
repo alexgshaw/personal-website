@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { ReactElement } from "react";
+import { ReactNode } from "react";
 import Navbar from "./navbar";
 
-export default function Layout({ children }: { children: ReactElement }) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       <Head>
