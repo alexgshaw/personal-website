@@ -18,7 +18,9 @@ export default function Layout({ children }: { children: ReactNode }) {
             <footer>
               <div className="-mx-4 h-px bg-zinc-900/5 sm:-mx-20" />
               <div className="flex flex-col items-center py-20 text-sm text-zinc-400 sm:flex-row sm:justify-between">
-                <p>© 2022 Alex Shaw. All rights reserved.</p>
+                <p>
+                  © {new Date().getFullYear()} Alex Shaw. All rights reserved.
+                </p>
               </div>
             </footer>
           </div>
