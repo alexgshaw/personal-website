@@ -23,13 +23,13 @@ interface ProjectProps {
 
 const projects: ProjectProps[] = [
   {
-    project: "Setracker",
+    project: "Power Up",
     title: "Software Engineering Project",
     description:
-      "It's a hassle to track your sets, weights, and reps at the gym. The apps that currently exist optimize for functionality rather than efficiency. I'm building an app that allows gym-goers to track their workouts as easily as possible.",
-    tags: ["React Native", "Figma"],
-    link: "/projects/setracker",
-    subtext: "Read more →",
+      "It's a hassle to track your sets, weights, and reps at the gym. The apps that currently exist optimize for functionality rather than efficiency. I'm building an app that allows gym-goers to track their workouts as easily as possible. Currently at 100 users.",
+    tags: ["React Native", "Supabase"],
+    link: "https://apps.apple.com/us/app/power-up-track-your-progress/id1662723139",
+    subtext: "Download app →",
     icon: PresentationChartLineIcon,
   },
   {
