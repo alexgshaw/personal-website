@@ -17,7 +17,7 @@ export default function ImageCircle({
       <div
         className={joinClassNames(
           className,
-          "rounded-full p-4 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5"
+          "rounded-full bg-white p-4 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5"
         )}
       >
         <div className="relative h-10 w-10">

@@ -9,9 +9,7 @@ export function H1({
   className?: string;
 }) {
   return (
-    <h1
-      className={joinClassNames(className, "text-5xl font-bold leading-snug")}
-    >
+    <h1 className={joinClassNames(className, "text-5xl font-bold")}>
       {children}
     </h1>
   );

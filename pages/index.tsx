@@ -40,19 +40,14 @@ export default function Home() {
     <div className="space-y-16">
       <div className="w-full max-w-2xl space-y-6">
         <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-full sm:mx-0 sm:h-24 sm:w-24">
-          <Image
-            src="/images/profile.jpg"
-            fill
-            className="object-cover"
-            alt=""
-          />
+          <Image src="/images/alex.jpg" fill className="object-cover" alt="" />
         </div>
         <H1 className="text-center text-zinc-800 sm:text-left">
           {/* Entreprenuer, investor, engineer, and scientist. */}
           Scientist, engineer, and student.
         </H1>
         <p className="mt-6 text-base font-light leading-loose text-zinc-600">
-          My name is Alex Shaw. I'm a current master's student at Brigham Young
+          My name is Alex Shaw. I'm a master's student at Brigham Young
           University where I research NLP applications and interpretability. I
           am passionate about building products that solve real problems for
           real people. I work on anything I find interesting, and this has led
@@ -98,6 +93,7 @@ export default function Home() {
             </svg>
           </a>
         </div>
+        <p className="text-sm text-zinc-400">Last Updated: December 16, 2022</p>
       </div>
       <div className="flex flex-col space-y-16">
         <div className="w-full max-w-2xl space-y-6 rounded-2xl p-6 ring-1 ring-zinc-100">

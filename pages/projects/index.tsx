@@ -44,7 +44,7 @@ const projects: ProjectProps[] = [
   },
   {
     project: "Cavi",
-    title: "Machine Learning Project",
+    title: "NLP Project",
     description:
       "A common problem I see others run into when adding experiences to their resumes is deciding how to write impactful bullet points. Wouldn't it be nice if you could just write a paragraph describing your job and then have a robot generate the bullet points for you? Well, now you can. (The name is a play of AI + CV.)",
     tags: ["React", "GPT-3", "Recruiting"],
@@ -58,7 +58,7 @@ const projects: ProjectProps[] = [
     description:
       "Lyvli is a platform where social media influencers can charge for live 1:1 coaching with their followers. The platform takes care of scheduling, payments, reminders, video, and reviews. It takes two minutes to sign up and you can start sharing the link on your social media accounts.",
     tags: ["React", "Django", "Hubspot", "Heroku"],
-    link: "https://www.lyvli.io",
+    link: "https://www.loom.com/share/6abbf636805041c0b74e565e8e02003c",
     subtext: "View the website →",
     icon: VideoCameraIcon,
   },

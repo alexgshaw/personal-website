@@ -22,7 +22,7 @@ const EXPERIENCES: ExperienceProps[] = [
   },
   {
     date: "November 31, 2021",
-    link: "https://www.lyvli.io",
+    link: "https://www.loom.com/share/6abbf636805041c0b74e565e8e02003c",
     title: "Co-Founder",
     company: "Lyvli",
     tags: ["React", "Django", "Heroku", "HubSpot"],

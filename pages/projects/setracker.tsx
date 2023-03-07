@@ -9,7 +9,7 @@ export default function Setracker() {
   return (
     <div className="mx-auto w-full max-w-xl space-y-16">
       <section className="space-y-10">
-        <H1>Setracker.</H1>
+        <H1>Power Up.</H1>
         <div className="space-y-10 text-base font-light leading-loose text-zinc-600">
           <Section>
             <H4 className="text-black">Problem</H4>
