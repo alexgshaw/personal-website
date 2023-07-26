@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div className="space-y-16">
       <div className="w-full max-w-2xl space-y-6">
-        <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-full sm:mx-0 sm:h-24 sm:w-24">
+        <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-full sm:mx-0 sm:h-48 sm:w-48">
           <Image
             src="/images/alex-medium.jpeg"
             fill
