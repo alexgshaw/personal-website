@@ -40,7 +40,12 @@ export default function Home() {
     <div className="space-y-16">
       <div className="w-full max-w-2xl space-y-6">
         <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-full sm:mx-0 sm:h-24 sm:w-24">
-          <Image src="/images/alex.jpeg" fill className="object-cover" alt="" />
+          <Image
+            src="/images/alex-medium.jpeg"
+            fill
+            className="object-cover"
+            alt=""
+          />
         </div>
         <H1 className="text-center text-zinc-800 sm:text-left">
           {/* Entreprenuer, investor, engineer, and scientist. */}
