@@ -1,6 +1,7 @@
 import {
   BuildingStorefrontIcon,
   ComputerDesktopIcon,
+  EnvelopeIcon,
   PaperAirplaneIcon,
   PresentationChartLineIcon,
   VideoCameraIcon,
@@ -23,12 +24,22 @@ interface ProjectProps {
 
 const projects: ProjectProps[] = [
   {
+    project: "Drift",
+    title: "AI Side Project",
+    description:
+      "Human-supervised, AI-drafted customer service replies. Beta testing with initial customer for $50/month.",
+    tags: ["ChatGPT", "Supabase", "Next.js", "Langchain"],
+    link: "https://getdrift.vercel.app/",
+    subtext: "Check it out →",
+    icon: EnvelopeIcon,
+  },
+  {
     project: "Power Up",
     title: "Software Engineering Project",
     description:
-      "It's a hassle to track your sets, weights, and reps at the gym. The apps that currently exist optimize for functionality rather than efficiency. I'm building an app that allows gym-goers to track their workouts as easily as possible. Currently at 100 users.",
+      "It's a hassle to track your sets, weights, and reps at the gym. The apps that currently exist optimize for functionality rather than efficiency. I'm building an app that allows gym-goers to track their workouts as easily as possible. Currently at 250 users. Pitched aquisition to Whoop (no deal, but cool experience).",
     tags: ["React Native", "Supabase"],
-    link: "https://apps.apple.com/us/app/power-up-track-your-progress/id1662723139",
+    link: "https://apps.apple.com/us/app/power-up-track-your-progress/id1662723139?platform=iphone",
     subtext: "Download app →",
     icon: PresentationChartLineIcon,
   },

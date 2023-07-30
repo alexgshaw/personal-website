@@ -48,17 +48,15 @@ export default function Home() {
           />
         </div>
         <H1 className="text-center text-zinc-800 sm:text-left">
-          {/* Entreprenuer, investor, engineer, and scientist. */}
-          Scientist, engineer, and student.
+          Entreprenuer, investor, engineer, and scientist.
         </H1>
         <p className="mt-6 text-base font-light leading-loose text-zinc-600">
-          My name is Alex Shaw. I'm a master's student at Brigham Young
-          University where I research NLP applications and interpretability. I
-          am passionate about building products that solve real problems for
-          real people. I work on anything I find interesting, and this has led
-          me to mathematics, machine learning, software development, investing,
-          and research. If you are trying to build great products or conduct
-          cutting-edge research, let's chat.
+          My name is Alex Shaw. I'm a software engineer at Google building the
+          new ads recommendation system. I am passionate about building products
+          that solve real problems for real people. I work on anything I find
+          interesting, and this has led me to mathematics, machine learning,
+          software development, investing, and research. If you are trying to
+          build great products let's chat.
         </p>
         <div className="flex h-5 space-x-6">
           <a
@@ -98,7 +96,7 @@ export default function Home() {
             </svg>
           </a>
         </div>
-        <p className="text-sm text-zinc-400">Last Updated: December 16, 2022</p>
+        <p className="text-sm text-zinc-400">Last Updated: July 30, 2023</p>
       </div>
       <div className="flex flex-col space-y-16">
         <div className="w-full max-w-2xl space-y-6 rounded-2xl p-6 ring-1 ring-zinc-100">

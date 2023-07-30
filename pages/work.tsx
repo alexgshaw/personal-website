@@ -14,11 +14,11 @@ interface ExperienceProps {
 const EXPERIENCES: ExperienceProps[] = [
   {
     date: "May 31, 2022",
-    title: "Software Engineer Intern",
+    title: "Software Engineer",
     company: "Google",
     tags: ["C++", "SQL", "Python", "Causal Inference"],
     description:
-      "I worked on Google's Conversion Lift team which is responsible for running A/B tests. I worked on a project to test for bias in our causal inference pipeline by designing, implementing, and analysing A/A test results. My project identified and fixed a major bug, significantly improving A/B test accuracy and reliability.",
+      "I'm working to transition Google Ads to a new recommendation system. I previously worked on Google's Conversion Lift team which is responsible for running A/B tests. I worked on a project to test for bias in our causal inference pipeline by designing, implementing, and analysing A/A test results. My project identified and fixed a major bug, significantly improving A/B test accuracy and reliability.",
   },
   {
     date: "November 31, 2021",
